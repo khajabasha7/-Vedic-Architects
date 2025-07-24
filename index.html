@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vedic Architects & Interiors</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+<nav class="navbar">
+  
+  <div class="nav-logo">
+  <a href="#hero" class="logo-link">
+    <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#f9c74f" viewBox="0 0 24 24">
+      <path d="M12 2L3 7v2h18V7l-9-5zm7 7v11h-3v-6H8v6H5V9H3v13h18V9h-2z"/>
+    </svg>
+    <span class="logo-text">Vedic <strong>Architects</strong></span>
+  </a>
+</div>
+
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- <a href="#" class="btn consult">Consult</a> -->
+  </div>
+</nav>
+
+
+  <!-- 🏠 Hero Section -->
+<header class="hero" id="hero">
+  <div class="hero-content">
+    <h1>Elevate your space,<br>honor your roots</h1>
+    <p>Step into a world where timeless Vedic wisdom meets the elegance of contemporary design.</p>
+    <p>At <strong>Vedic Architects & Interiors</strong>, we don't just build spaces — we craft experiences that reflect your:</p>
+    <ul class="hero-points">
+      <li>✨ Traditional <strong>Vastu</strong> principles</li>
+      <li>🏡 <strong>Modern</strong> architecture and functionality</li>
+      <li>🌿 <strong>Eco-conscious</strong> materials</li>
+      <li>🪔 <strong>Culturally-rooted</strong> aesthetics</li>
+    </ul>
+    <p>Our passionate team of designers and architects transforms your vision into a soulful reality — 
+    where every corner tells a story, and every detail reflects your identity.</p>
+    <a href="#services" class="btn">Discover</a>
+  </div>
+</header>
+
+
+ <!-- 🧱 About Section -->
+<section class="intro" id="about">
+  <h2>Where tradition meets inspired living</h2>
+  <p>Experience the harmony of Vedic wisdom and modern design—crafted for homes, businesses, and sacred spaces that truly feel like yours.</p>
+
+  <div class="slideshow-container">
+    <img src="images/ab1.jpg" class="about-slide" alt="Vedic Design 1">
+    <img src="images/ab2.webp" class="about-slide" alt="Vedic Design 2">
+    <img src="images/ab3.png" class="about-slide" alt="Vedic Design 3">
+  </div>
+</section>
+
+
+  <!-- 🛠️ Services Section -->
+  <section class="services" id="services">
+    <div class="service">
+      <h3>Architectural Design</h3>
+      <p>Planning that blends Vastu principles with modern aesthetics for balance and beauty.</p>
+    </div>
+    <div class="service">
+      <h3>Interior Spaces</h3>
+      <p>Celebrate Indian heritage and comfort with serene, personalized interiors.</p>
+    </div>
+    <div class="service">
+      <h3>Vastu Guidance</h3>
+      <p>Personalized consultations to align your space with positive energy and well-being.</p>
+    </div>
+    <div class="service">
+      <h3>3D & Turnkey Solutions</h3>
+      <p>Visualize your dream with 3D renders and complete execution from start to finish.</p>
+    </div>
+  </section>
+
+  <!-- 🖼️ Gallery Section -->
+  <section class="gallery">
+    <h2>Our Work</h2>
+   <div class="gallery-images">
+  <img src="images/traditional-indian-home-decor-ideas.avif" alt="Design Work" onclick="openLightbox(this)">
+  <img src="images/design.jpg" alt="Interior Work" onclick="openLightbox(this)">
+  <img src="images/Indian-Traditional-Living-Room-Designs-2.webp" alt="Interior Work" onclick="openLightbox(this)">
+  <!-- Add more images as needed -->
+</div>
+
+<!-- Lightbox Popup -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="Full Size">
+</div>
+
+  </section>
+  
+<section class="contact-footer" id="contact">
+  <div class="contact-section">
+    <h2>Contact Us</h2>
+    <p>We’d love to connect and bring your vision to life!</p>
+
+    <div class="contact-details">
+      <p>📧 <a href="mailto:jakkaanil3366@gmail.com">jakkaanil3366@gmail.com</a></p>
+      <p>📞 <a href="tel:+918096917366">+91-80969 17366</a></p>
+      <p>📍 Based in India – Available for on-site & virtual consultations</p>
+    </div>
+  </div>
+
+  <div class="footer-content">
+    <h3>Vedic Architects & Interiors</h3>
+    <p>Creating timeless spaces with Vastu and elegance.</p>
+
+    <div class="footer-links">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</section>
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
